@@ -28,7 +28,7 @@
     self.box.backgroundColor = [UIColor lightGrayColor];
     
     self.ball = [CAShapeLayer layer];
-    self.ball.path = [UIBezierPath bezierPathWithArcCenter:CGPointZero radius:40 startAngle:0 endAngle:2*M_PI clockwise:YES].CGPath;
+    self.ball.path = [UIBezierPath bezierPathWithArcCenter:CGPointZero radius:20 startAngle:0 endAngle:2*M_PI clockwise:YES].CGPath;
     self.ball.zPosition = -1;
     [self.ball setFillColor:[UIColor blackColor].CGColor];
     [self.box.layer addSublayer:self.ball];
